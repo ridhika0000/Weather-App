@@ -5,17 +5,6 @@ The app also changes the background color based on the current weather condition
 
 ---
 
-## 🚀 Features
-- Search weather by city name
-- Displays:
-  - Temperature (°C)
-  - Weather description
-  - Humidity
-  - Wind speed
-- **Dynamic background** that changes with weather
-- Responsive design for mobile and desktop
-
----
 
 ## 🛠 Technologies Used
 - **HTML5**
@@ -29,4 +18,4 @@ The app also changes the background color based on the current weather condition
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/weather-app.git
+git clone https:[//github.com/your-username/weather-app.git](https://ridhika0000.github.io/Weather-App/)
