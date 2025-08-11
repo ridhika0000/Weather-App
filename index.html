@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌤 Weather Dashboard</h1>
+
+    <div class="search-box">
+      <!-- ID must be cityInput (matches your JS) -->
+      <input id="cityInput" type="text" placeholder="Enter city name" />
+      <!-- call getWeather() directly so no JS changes needed -->
+      <button id="search-btn" onclick="getWeather()">Search</button>
+    </div>
+
+    <!-- JS expects element with id="current-weather" -->
+    <div id="current-weather" class="card"></div>
+
+    <!-- JS expects element with id="forecast" -->
+    <div id="forecast" class="forecast-container"></div>
+  </div>
+
+  <footer>Powered by OpenWeather API</footer>
+
+  <!-- keep your existing script.js unchanged -->
+  <script src="script.js"></script>
+</body>
+</html>
